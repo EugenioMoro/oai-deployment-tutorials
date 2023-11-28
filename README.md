@@ -54,6 +54,7 @@ And comment out (by adding # at the beginning of the line) these lines:
 cap_drop:
 	- ALL
 ```
+in the file named `docker-compose-no-privilege.yaml`.
 Then deploy the core network with the following command:
 ```
 docker-compose -f docker-compose-no-privilege.yaml up
