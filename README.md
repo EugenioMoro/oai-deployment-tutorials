@@ -70,7 +70,8 @@ cd openairinterface5g
 ### Step 2: install dependencies and build the gNB and UE
 ```
 cd cmake_targets
-./build_oai --ninja -I ./build_oai --ninja --gNB --nrUE -w SIMU -c
+./build_oai --ninja -I
+./build_oai --ninja --gNB --nrUE -w SIMU -c
 ```
 
 ### Step 3: prepare configuration
